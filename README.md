@@ -1,8 +1,10 @@
 # Image_colorization
-Matlab program to colorize greyscale images
+Matlab program to colorize greyscale images, using a colorized image as a reference.
 
-The principal function is colorization.m (example : colorization(‘tree_c.jpg’,’forest_g.jpg’))
+The principal function is `colorization.m` ; for example :`colorization(‘tree_c.jpg’,’forest_g.jpg’))` will attempt to colorize the image `'tree_c.jpg'` using `'forest_g.jpg'` as a reference. The program will then ask the user if he wants to use the "swatches method", via the command line. The colorized image is then savec in the same folder.
 
 The details of this project, such as the papers references and general algorithm architecture are explained in [Rapport](https://github.com/petious/Image_colorization/blob/master/Rapport.pdf) (in french)
+
+
 
 
